@@ -1,0 +1,32 @@
+/* src/components/QuoteCard.css */
+.quote-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://www.xmple.com/wallpaper/one-colour-single-yellow-solid-color-plain-2560x1440-c-fcfcb6-f-24.svg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .quote-card p {
+    font-size: 1.2em;
+    margin: 0 0 12px;
+  }
+  
+  .quote-card button {
+    background-color: transparent;
+    color:black;
+    border:1px solid black; /* Black border for the buttons */
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .quote-card button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+
